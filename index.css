@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://www.itl.cat/pngfile/big/324-3245745_background-train-station-hd.png");
+  background-size: cover;
+  font-weight: bold;
+  font-size:x-large;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align:middle;
+  margin-top: 13%;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 0px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size:large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#increment-btn {
+  background: darkred;
+}
+
+#save-btn {
+  background: darkgreen;
+}
+
+.ground{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.85);;
+  width:100%;
+  height: 100%;
+  z-index: -1;
+  }
